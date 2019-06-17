@@ -8,7 +8,7 @@ const session = require('supertest-session');
 // Get test data to compare in tests
 const rawTestData = fs.readFileSync('./bin/testdata.json', 'utf-8');
 const jsonData = JSON.parse(rawTestData);
-
+//test
 // Setup some global DB objects for comparison
 let db;
 let config;
